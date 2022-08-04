@@ -1,12 +1,22 @@
 body  {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    color: rgb(135, 150, 163);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 p {
 color: yellow;
 font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+#dive {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
